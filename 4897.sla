@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCRIBUSUTF8NEW Version="1.4.1.svn">
+    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595" PAGEHEIGHT="842" BORDERLEFT="50" BORDERRIGHT="30" BORDERTOP="20" BORDERBOTTOM="20" PRESET="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOTEXT="1" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="0" DFONT="Nimbus Sans L Bold Condensed" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="100" VTIEF="33" VTIEFSC="100" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="" DPPr="" DPIn="" DPInCMYK="" DPIn2="" DPIn3="" DISc="1" DIIm="0" ALAYER="2" LANGUAGE="French" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="0" SnapToGuides="0" SnapToGrid="0" MINGRID="20" MAJGRID="100" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="0" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.5" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20" ScratchLeft="100" ScratchRight="100" ScratchTop="20" GapHorizontal="0" GapVertical="40" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="10" dispY="10" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="1" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+        <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF/X-3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PostScript" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <COLOR NAME="AliceBlue" CMYK="#0f070000" Spot="0" Register="0"/>
+        <COLOR NAME="AntiqueWhite" CMYK="#000f2305" Spot="0" Register="0"/>
+        <COLOR NAME="AntiqueWhite1" CMYK="#00102400" Spot="0" Register="0"/>
+        <COLOR NAME="AntiqueWhite2" CMYK="#000f2211" Spot="0" Register="0"/>
+        <COLOR NAME="AntiqueWhite3" CMYK="#000d1d32" Spot="0" Register="0"/>
+        <COLOR NAME="AntiqueWhite4" CMYK="#00081374" Spot="0" Register="0"/>
+        <COLOR NAME="Aquamarine" CMYK="#80002b00" Spot="0" Register="0"/>
+        <COLOR NAME="Aquamarine1" CMYK="#80002b00" Spot="0" Register="0"/>
+        <COLOR NAME="Aquamarine2" CMYK="#78002811" Spot="0" Register="0"/>
+        <COLOR NAME="Aquamarine3" CMYK="#67002332" Spot="0" Register="0"/>
+        <COLOR NAME="Aquamarine4" CMYK="#46001774" Spot="0" Register="0"/>
+        <COLOR NAME="Azure" CMYK="#0f000000" Spot="0" Register="0"/>
+        <COLOR NAME="Azure1" CMYK="#0f000000" Spot="0" Register="0"/>
+        <COLOR NAME="Azure2" CMYK="#0e000011" Spot="0" Register="0"/>
+        <COLOR NAME="Azure3" CMYK="#0c000032" Spot="0" Register="0"/>
+        <COLOR NAME="Azure4" CMYK="#08000074" Spot="0" Register="0"/>
+        <COLOR NAME="Beige" CMYK="#0000190a" Spot="0" Register="0"/>
+        <COLOR NAME="Bisque" CMYK="#001b3b00" Spot="0" Register="0"/>
+        <COLOR NAME="Bisque1" CMYK="#001b3b00" Spot="0" Register="0"/>
+        <COLOR NAME="Bisque2" CMYK="#00193711" Spot="0" Register="0"/>
+        <COLOR NAME="Bisque3" CMYK="#00162f32" Spot="0" Register="0"/>
+        <COLOR NAME="Bisque4" CMYK="#000e2074" Spot="0" Register="0"/>
+        <COLOR NAME="Black" CMYK="#000000ff" Spot="0" Register="0"/>
+        <COLOR NAME="BlanchedAlmond" CMYK="#00143200" Spot="0" Register="0"/>
+        <COLOR NAME="Blue" CMYK="#ffff0000" Spot="0" Register="0"/>
+        <COLOR NAME="Blue1" CMYK="#ffff0000" Spot="0" Register="0"/>
+        <COLOR NAME="Blue2" CMYK="#eeee0011" Spot="0" Register="0"/>
+        <COLOR NAME="Blue3" CMYK="#cdcd0032" Spot="0" Register="0"/>
+        <COLOR NAME="Blue4" CMYK="#8b8b0074" Spot="0" Register="0"/>
+        <COLOR NAME="BlueViolet" CMYK="#58b7001d" Spot="0" Register="0"/>
+        <COLOR NAME="Brown" CMYK="#007b7b5a" Spot="0" Register="0"/>
+        <COLOR NAME="Brown1" CMYK="#00bfbf00" Spot="0" Register="0"/>
+        <COLOR NAME="Brown2" CMYK="#00b3b311" Spot="0" Register="0"/>
+        <COLOR NAME="Brown3" CMYK="#009a9a32" Spot="0" Register="0"/>
+        <COLOR NAME="Brown4" CMYK="#00686874" Spot="0" Register="0"/>
+        <COLOR NAME="Burlywood" CMYK="#00265721" Spot="0" Register="0"/>
+        <COLOR NAME="Burlywood1" CMYK="#002c6400" Spot="0" Register="0"/>
+        <COLOR NAME="Burlywood2" CMYK="#00295d11" Spot="0" Register="0"/>
+        <COLOR NAME="Burlywood3" CMYK="#00235032" Spot="0" Register="0"/>
+        <COLOR NAME="Burlywood4" CMYK="#00183674" Spot="0" Register="0"/>
+        <COLOR NAME="CadetBlue" CMYK="#4102005f" Spot="0" Register="0"/>
+        <COLOR NAME="CadetBlue1" CMYK="#670a0000" Spot="0" Register="0"/>
+        <COLOR NAME="CadetBlue2" CMYK="#60090011" Spot="0" Register="0"/>
+        <COLOR NAME="CadetBlue3" CMYK="#53080032" Spot="0" Register="0"/>
+        <COLOR NAME="CadetBlue4" CMYK="#38050074" Spot="0" Register="0"/>
+        <COLOR NAME="Chartreuse" CMYK="#8000ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Chartreuse1" CMYK="#8000ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Chartreuse2" CMYK="#7800ee11" Spot="0" Register="0"/>
+        <COLOR NAME="Chartreuse3" CMYK="#6700cd32" Spot="0" Register="0"/>
+        <COLOR NAME="Chartreuse4" CMYK="#46008b74" Spot="0" Register="0"/>
+        <COLOR NAME="Chocolate" CMYK="#0069b42d" Spot="0" Register="0"/>
+        <COLOR NAME="Chocolate1" CMYK="#0080db00" Spot="0" Register="0"/>
+        <COLOR NAME="Chocolate2" CMYK="#0078cd11" Spot="0" Register="0"/>
+        <COLOR NAME="Chocolate3" CMYK="#0067b032" Spot="0" Register="0"/>
+        <COLOR NAME="Chocolate4" CMYK="#00467874" Spot="0" Register="0"/>
+        <COLOR NAME="Coral" CMYK="#0080af00" Spot="0" Register="0"/>
+        <COLOR NAME="Coral1" CMYK="#008da900" Spot="0" Register="0"/>
+        <COLOR NAME="Coral2" CMYK="#00849e11" Spot="0" Register="0"/>
+        <COLOR NAME="Coral3" CMYK="#00728832" Spot="0" Register="0"/>
+        <COLOR NAME="Coral4" CMYK="#004d5c74" Spot="0" Register="0"/>
+        <COLOR NAME="CornflowerBlue" CMYK="#89580012" Spot="0" Register="0"/>
+        <COLOR NAME="Cornsilk" CMYK="#00072300" Spot="0" Register="0"/>
+        <COLOR NAME="Cornsilk1" CMYK="#00072300" Spot="0" Register="0"/>
+        <COLOR NAME="Cornsilk2" CMYK="#00062111" Spot="0" Register="0"/>
+        <COLOR NAME="Cornsilk3" CMYK="#00051c32" Spot="0" Register="0"/>
+        <COLOR NAME="Cornsilk4" CMYK="#00031374" Spot="0" Register="0"/>
+        <COLOR NAME="Cyan" CMYK="#ff000000" Spot="0" Register="0"/>
+        <COLOR NAME="Cyan1" CMYK="#ff000000" Spot="0" Register="0"/>
+        <COLOR NAME="Cyan2" CMYK="#ee000011" Spot="0" Register="0"/>
+        <COLOR NAME="Cyan3" CMYK="#cd000032" Spot="0" Register="0"/>
+        <COLOR NAME="Cyan4" CMYK="#8b000074" Spot="0" Register="0"/>
+        <COLOR NAME="DarkBlue" CMYK="#8b8b0074" Spot="0" Register="0"/>
+        <COLOR NAME="DarkCyan" CMYK="#8b000074" Spot="0" Register="0"/>
+        <COLOR NAME="DarkGoldenrod" CMYK="#0032ad47" Spot="0" Register="0"/>
+        <COLOR NAME="DarkGoldenrod1" CMYK="#0046f000" Spot="0" Register="0"/>
+        <COLOR NAME="DarkGoldenrod2" CMYK="#0041e011" Spot="0" Register="0"/>
+        <COLOR NAME="DarkGoldenrod3" CMYK="#0038c132" Spot="0" Register="0"/>
+        <COLOR NAME="DarkGoldenrod4" CMYK="#00268374" Spot="0" Register="0"/>
+        <COLOR NAME="DarkGreen" CMYK="#6400649b" Spot="0" Register="0"/>
+        <COLOR NAME="DarkGrey" CMYK="#00000056" Spot="0" Register="0"/>
+        <COLOR NAME="DarkKhaki" CMYK="#00065242" Spot="0" Register="0"/>
+        <COLOR NAME="DarkMagenta" CMYK="#008b0074" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOliveGreen" CMYK="#16003c94" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOliveGreen1" CMYK="#35008f00" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOliveGreen2" CMYK="#32008611" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOliveGreen3" CMYK="#2b007332" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOliveGreen4" CMYK="#1d004e74" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOrange" CMYK="#0073ff00" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOrange1" CMYK="#0080ff00" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOrange2" CMYK="#0078ee11" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOrange3" CMYK="#0067cd32" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOrange4" CMYK="#00468b74" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOrchid" CMYK="#339a0033" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOrchid1" CMYK="#40c10000" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOrchid2" CMYK="#3cb40011" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOrchid3" CMYK="#339b0032" Spot="0" Register="0"/>
+        <COLOR NAME="DarkOrchid4" CMYK="#23690074" Spot="0" Register="0"/>
+        <COLOR NAME="DarkRed" CMYK="#008b8b74" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSalmon" CMYK="#00536f16" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSeaGreen" CMYK="#2d002d43" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSeaGreen1" CMYK="#3e003e00" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSeaGreen2" CMYK="#3a003a11" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSeaGreen3" CMYK="#32003232" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSeaGreen4" CMYK="#22002274" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSlateBlue" CMYK="#434e0074" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSlateGrey" CMYK="#200000b0" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSlateGrey1" CMYK="#68000000" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSlateGrey2" CMYK="#61000011" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSlateGrey3" CMYK="#54000032" Spot="0" Register="0"/>
+        <COLOR NAME="DarkSlateGrey4" CMYK="#39000074" Spot="0" Register="0"/>
+        <COLOR NAME="DarkTurquoise" CMYK="#d103002e" Spot="0" Register="0"/>
+        <COLOR NAME="DarkViolet" CMYK="#3fd3002c" Spot="0" Register="0"/>
+        <COLOR NAME="DeepPink" CMYK="#00eb6c00" Spot="0" Register="0"/>
+        <COLOR NAME="DeepPink1" CMYK="#00eb6c00" Spot="0" Register="0"/>
+        <COLOR NAME="DeepPink2" CMYK="#00dc6511" Spot="0" Register="0"/>
+        <COLOR NAME="DeepPink3" CMYK="#00bd5732" Spot="0" Register="0"/>
+        <COLOR NAME="DeepPink4" CMYK="#00813b74" Spot="0" Register="0"/>
+        <COLOR NAME="DeepSkyBlue" CMYK="#ff400000" Spot="0" Register="0"/>
+        <COLOR NAME="DeepSkyBlue1" CMYK="#ff400000" Spot="0" Register="0"/>
+        <COLOR NAME="DeepSkyBlue2" CMYK="#ee3c0011" Spot="0" Register="0"/>
+        <COLOR NAME="DeepSkyBlue3" CMYK="#cd330032" Spot="0" Register="0"/>
+        <COLOR NAME="DeepSkyBlue4" CMYK="#8b230074" Spot="0" Register="0"/>
+        <COLOR NAME="DimGrey" CMYK="#00000096" Spot="0" Register="0"/>
+        <COLOR NAME="DodgerBlue" CMYK="#e16f0000" Spot="0" Register="0"/>
+        <COLOR NAME="DodgerBlue1" CMYK="#e16f0000" Spot="0" Register="0"/>
+        <COLOR NAME="DodgerBlue2" CMYK="#d2680011" Spot="0" Register="0"/>
+        <COLOR NAME="DodgerBlue3" CMYK="#b5590032" Spot="0" Register="0"/>
+        <COLOR NAME="DodgerBlue4" CMYK="#7b3d0074" Spot="0" Register="0"/>
+        <COLOR NAME="Firebrick" CMYK="#0090904d" Spot="0" Register="0"/>
+        <COLOR NAME="Firebrick1" CMYK="#00cfcf00" Spot="0" Register="0"/>
+        <COLOR NAME="Firebrick2" CMYK="#00c2c211" Spot="0" Register="0"/>
+        <COLOR NAME="Firebrick3" CMYK="#00a7a732" Spot="0" Register="0"/>
+        <COLOR NAME="Firebrick4" CMYK="#00717174" Spot="0" Register="0"/>
+        <COLOR NAME="FloralWhite" CMYK="#00050f00" Spot="0" Register="0"/>
+        <COLOR NAME="ForestGreen" CMYK="#69006974" Spot="0" Register="0"/>
+        <COLOR NAME="Gainsboro" CMYK="#00000023" Spot="0" Register="0"/>
+        <COLOR NAME="GhostWhite" CMYK="#07070000" Spot="0" Register="0"/>
+        <COLOR NAME="Gold" CMYK="#0028ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Gold1" CMYK="#0028ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Gold2" CMYK="#0025ee11" Spot="0" Register="0"/>
+        <COLOR NAME="Gold3" CMYK="#0020cd32" Spot="0" Register="0"/>
+        <COLOR NAME="Gold4" CMYK="#00168b74" Spot="0" Register="0"/>
+        <COLOR NAME="Goldenrod" CMYK="#0035ba25" Spot="0" Register="0"/>
+        <COLOR NAME="Goldenrod1" CMYK="#003eda00" Spot="0" Register="0"/>
+        <COLOR NAME="Goldenrod2" CMYK="#003acc11" Spot="0" Register="0"/>
+        <COLOR NAME="Goldenrod3" CMYK="#0032b032" Spot="0" Register="0"/>
+        <COLOR NAME="Goldenrod4" CMYK="#00227774" Spot="0" Register="0"/>
+        <COLOR NAME="Green" CMYK="#ff00ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Green1" CMYK="#ff00ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Green2" CMYK="#ee00ee11" Spot="0" Register="0"/>
+        <COLOR NAME="Green3" CMYK="#cd00cd32" Spot="0" Register="0"/>
+        <COLOR NAME="Green4" CMYK="#8b008b74" Spot="0" Register="0"/>
+        <COLOR NAME="GreenYellow" CMYK="#5200d000" Spot="0" Register="0"/>
+        <COLOR NAME="Grey" CMYK="#00000041" Spot="0" Register="0"/>
+        <COLOR NAME="Grey0" CMYK="#000000ff" Spot="0" Register="0"/>
+        <COLOR NAME="Grey1" CMYK="#000000fc" Spot="0" Register="0"/>
+        <COLOR NAME="Grey10" CMYK="#000000e5" Spot="0" Register="0"/>
+        <COLOR NAME="Grey100" CMYK="#00000000" Spot="0" Register="0"/>
+        <COLOR NAME="Grey11" CMYK="#000000e3" Spot="0" Register="0"/>
+        <COLOR NAME="Grey12" CMYK="#000000e0" Spot="0" Register="0"/>
+        <COLOR NAME="Grey13" CMYK="#000000de" Spot="0" Register="0"/>
+        <COLOR NAME="Grey14" CMYK="#000000db" Spot="0" Register="0"/>
+        <COLOR NAME="Grey15" CMYK="#000000d9" Spot="0" Register="0"/>
+        <COLOR NAME="Grey16" CMYK="#000000d6" Spot="0" Register="0"/>
+        <COLOR NAME="Grey17" CMYK="#000000d4" Spot="0" Register="0"/>
+        <COLOR NAME="Grey18" CMYK="#000000d1" Spot="0" Register="0"/>
+        <COLOR NAME="Grey19" CMYK="#000000cf" Spot="0" Register="0"/>
+        <COLOR NAME="Grey2" CMYK="#000000fa" Spot="0" Register="0"/>
+        <COLOR NAME="Grey20" CMYK="#000000cc" Spot="0" Register="0"/>
+        <COLOR NAME="Grey21" CMYK="#000000c9" Spot="0" Register="0"/>
+        <COLOR NAME="Grey22" CMYK="#000000c7" Spot="0" Register="0"/>
+        <COLOR NAME="Grey23" CMYK="#000000c4" Spot="0" Register="0"/>
+        <COLOR NAME="Grey24" CMYK="#000000c2" Spot="0" Register="0"/>
+        <COLOR NAME="Grey25" CMYK="#000000bf" Spot="0" Register="0"/>
+        <COLOR NAME="Grey26" CMYK="#000000bd" Spot="0" Register="0"/>
+        <COLOR NAME="Grey27" CMYK="#000000ba" Spot="0" Register="0"/>
+        <COLOR NAME="Grey28" CMYK="#000000b8" Spot="0" Register="0"/>
+        <COLOR NAME="Grey29" CMYK="#000000b5" Spot="0" Register="0"/>
+        <COLOR NAME="Grey3" CMYK="#000000f7" Spot="0" Register="0"/>
+        <COLOR NAME="Grey30" CMYK="#000000b2" Spot="0" Register="0"/>
+        <COLOR NAME="Grey31" CMYK="#000000b0" Spot="0" Register="0"/>
+        <COLOR NAME="Grey32" CMYK="#000000ad" Spot="0" Register="0"/>
+        <COLOR NAME="Grey33" CMYK="#000000ab" Spot="0" Register="0"/>
+        <COLOR NAME="Grey34" CMYK="#000000a8" Spot="0" Register="0"/>
+        <COLOR NAME="Grey35" CMYK="#000000a6" Spot="0" Register="0"/>
+        <COLOR NAME="Grey36" CMYK="#000000a3" Spot="0" Register="0"/>
+        <COLOR NAME="Grey37" CMYK="#000000a1" Spot="0" Register="0"/>
+        <COLOR NAME="Grey38" CMYK="#0000009e" Spot="0" Register="0"/>
+        <COLOR NAME="Grey39" CMYK="#0000009c" Spot="0" Register="0"/>
+        <COLOR NAME="Grey4" CMYK="#000000f5" Spot="0" Register="0"/>
+        <COLOR NAME="Grey40" CMYK="#00000099" Spot="0" Register="0"/>
+        <COLOR NAME="Grey41" CMYK="#00000096" Spot="0" Register="0"/>
+        <COLOR NAME="Grey42" CMYK="#00000094" Spot="0" Register="0"/>
+        <COLOR NAME="Grey43" CMYK="#00000091" Spot="0" Register="0"/>
+        <COLOR NAME="Grey44" CMYK="#0000008f" Spot="0" Register="0"/>
+        <COLOR NAME="Grey45" CMYK="#0000008c" Spot="0" Register="0"/>
+        <COLOR NAME="Grey46" CMYK="#0000008a" Spot="0" Register="0"/>
+        <COLOR NAME="Grey47" CMYK="#00000087" Spot="0" Register="0"/>
+        <COLOR NAME="Grey48" CMYK="#00000085" Spot="0" Register="0"/>
+        <COLOR NAME="Grey49" CMYK="#00000082" Spot="0" Register="0"/>
+        <COLOR NAME="Grey5" CMYK="#000000f2" Spot="0" Register="0"/>
+        <COLOR NAME="Grey50" CMYK="#00000080" Spot="0" Register="0"/>
+        <COLOR NAME="Grey51" CMYK="#0000007d" Spot="0" Register="0"/>
+        <COLOR NAME="Grey52" CMYK="#0000007a" Spot="0" Register="0"/>
+        <COLOR NAME="Grey53" CMYK="#00000078" Spot="0" Register="0"/>
+        <COLOR NAME="Grey54" CMYK="#00000075" Spot="0" Register="0"/>
+        <COLOR NAME="Grey55" CMYK="#00000073" Spot="0" Register="0"/>
+        <COLOR NAME="Grey56" CMYK="#00000070" Spot="0" Register="0"/>
+        <COLOR NAME="Grey57" CMYK="#0000006e" Spot="0" Register="0"/>
+        <COLOR NAME="Grey58" CMYK="#0000006b" Spot="0" Register="0"/>
+        <COLOR NAME="Grey59" CMYK="#00000069" Spot="0" Register="0"/>
+        <COLOR NAME="Grey6" CMYK="#000000f0" Spot="0" Register="0"/>
+        <COLOR NAME="Grey60" CMYK="#00000066" Spot="0" Register="0"/>
+        <COLOR NAME="Grey61" CMYK="#00000063" Spot="0" Register="0"/>
+        <COLOR NAME="Grey62" CMYK="#00000061" Spot="0" Register="0"/>
+        <COLOR NAME="Grey63" CMYK="#0000005e" Spot="0" Register="0"/>
+        <COLOR NAME="Grey64" CMYK="#0000005c" Spot="0" Register="0"/>
+        <COLOR NAME="Grey65" CMYK="#00000059" Spot="0" Register="0"/>
+        <COLOR NAME="Grey66" CMYK="#00000057" Spot="0" Register="0"/>
+        <COLOR NAME="Grey67" CMYK="#00000054" Spot="0" Register="0"/>
+        <COLOR NAME="Grey68" CMYK="#00000052" Spot="0" Register="0"/>
+        <COLOR NAME="Grey69" CMYK="#0000004f" Spot="0" Register="0"/>
+        <COLOR NAME="Grey7" CMYK="#000000ed" Spot="0" Register="0"/>
+        <COLOR NAME="Grey70" CMYK="#0000004c" Spot="0" Register="0"/>
+        <COLOR NAME="Grey71" CMYK="#0000004a" Spot="0" Register="0"/>
+        <COLOR NAME="Grey72" CMYK="#00000047" Spot="0" Register="0"/>
+        <COLOR NAME="Grey73" CMYK="#00000045" Spot="0" Register="0"/>
+        <COLOR NAME="Grey74" CMYK="#00000042" Spot="0" Register="0"/>
+        <COLOR NAME="Grey75" CMYK="#00000040" Spot="0" Register="0"/>
+        <COLOR NAME="Grey76" CMYK="#0000003d" Spot="0" Register="0"/>
+        <COLOR NAME="Grey77" CMYK="#0000003b" Spot="0" Register="0"/>
+        <COLOR NAME="Grey78" CMYK="#00000038" Spot="0" Register="0"/>
+        <COLOR NAME="Grey79" CMYK="#00000036" Spot="0" Register="0"/>
+        <COLOR NAME="Grey8" CMYK="#000000eb" Spot="0" Register="0"/>
+        <COLOR NAME="Grey80" CMYK="#00000033" Spot="0" Register="0"/>
+        <COLOR NAME="Grey81" CMYK="#00000030" Spot="0" Register="0"/>
+        <COLOR NAME="Grey82" CMYK="#0000002e" Spot="0" Register="0"/>
+        <COLOR NAME="Grey83" CMYK="#0000002b" Spot="0" Register="0"/>
+        <COLOR NAME="Grey84" CMYK="#00000029" Spot="0" Register="0"/>
+        <COLOR NAME="Grey85" CMYK="#00000026" Spot="0" Register="0"/>
+        <COLOR NAME="Grey86" CMYK="#00000024" Spot="0" Register="0"/>
+        <COLOR NAME="Grey87" CMYK="#00000021" Spot="0" Register="0"/>
+        <COLOR NAME="Grey88" CMYK="#0000001f" Spot="0" Register="0"/>
+        <COLOR NAME="Grey89" CMYK="#0000001c" Spot="0" Register="0"/>
+        <COLOR NAME="Grey9" CMYK="#000000e8" Spot="0" Register="0"/>
+        <COLOR NAME="Grey90" CMYK="#0000001a" Spot="0" Register="0"/>
+        <COLOR NAME="Grey91" CMYK="#00000017" Spot="0" Register="0"/>
+        <COLOR NAME="Grey92" CMYK="#00000014" Spot="0" Register="0"/>
+        <COLOR NAME="Grey93" CMYK="#00000012" Spot="0" Register="0"/>
+        <COLOR NAME="Grey94" CMYK="#0000000f" Spot="0" Register="0"/>
+        <COLOR NAME="Grey95" CMYK="#0000000d" Spot="0" Register="0"/>
+        <COLOR NAME="Grey96" CMYK="#0000000a" Spot="0" Register="0"/>
+        <COLOR NAME="Grey97" CMYK="#00000008" Spot="0" Register="0"/>
+        <COLOR NAME="Grey98" CMYK="#00000005" Spot="0" Register="0"/>
+        <COLOR NAME="Grey99" CMYK="#00000003" Spot="0" Register="0"/>
+        <COLOR NAME="Honeydew" CMYK="#0f000f00" Spot="0" Register="0"/>
+        <COLOR NAME="Honeydew1" CMYK="#0f000f00" Spot="0" Register="0"/>
+        <COLOR NAME="Honeydew2" CMYK="#0e000e11" Spot="0" Register="0"/>
+        <COLOR NAME="Honeydew3" CMYK="#0c000c32" Spot="0" Register="0"/>
+        <COLOR NAME="Honeydew4" CMYK="#08000874" Spot="0" Register="0"/>
+        <COLOR NAME="HotPink" CMYK="#00964b00" Spot="0" Register="0"/>
+        <COLOR NAME="HotPink1" CMYK="#00914b00" Spot="0" Register="0"/>
+        <COLOR NAME="HotPink2" CMYK="#00844711" Spot="0" Register="0"/>
+        <COLOR NAME="HotPink3" CMYK="#006d3d32" Spot="0" Register="0"/>
+        <COLOR NAME="HotPink4" CMYK="#00512974" Spot="0" Register="0"/>
+        <COLOR NAME="IndianRed" CMYK="#00717132" Spot="0" Register="0"/>
+        <COLOR NAME="IndianRed1" CMYK="#00959500" Spot="0" Register="0"/>
+        <COLOR NAME="IndianRed2" CMYK="#008b8b11" Spot="0" Register="0"/>
+        <COLOR NAME="IndianRed3" CMYK="#00787832" Spot="0" Register="0"/>
+        <COLOR NAME="IndianRed4" CMYK="#00515174" Spot="0" Register="0"/>
+        <COLOR NAME="Ivory" CMYK="#00000f00" Spot="0" Register="0"/>
+        <COLOR NAME="Ivory1" CMYK="#00000f00" Spot="0" Register="0"/>
+        <COLOR NAME="Ivory2" CMYK="#00000e11" Spot="0" Register="0"/>
+        <COLOR NAME="Ivory3" CMYK="#00000c32" Spot="0" Register="0"/>
+        <COLOR NAME="Ivory4" CMYK="#00000874" Spot="0" Register="0"/>
+        <COLOR NAME="Khaki" CMYK="#000a640f" Spot="0" Register="0"/>
+        <COLOR NAME="Khaki1" CMYK="#00097000" Spot="0" Register="0"/>
+        <COLOR NAME="Khaki2" CMYK="#00086911" Spot="0" Register="0"/>
+        <COLOR NAME="Khaki3" CMYK="#00075a32" Spot="0" Register="0"/>
+        <COLOR NAME="Khaki4" CMYK="#00053d74" Spot="0" Register="0"/>
+        <COLOR NAME="Lavender" CMYK="#14140005" Spot="0" Register="0"/>
+        <COLOR NAME="LavenderBlush" CMYK="#000f0a00" Spot="0" Register="0"/>
+        <COLOR NAME="LavenderBlush1" CMYK="#000f0a00" Spot="0" Register="0"/>
+        <COLOR NAME="LavenderBlush2" CMYK="#000e0911" Spot="0" Register="0"/>
+        <COLOR NAME="LavenderBlush3" CMYK="#000c0832" Spot="0" Register="0"/>
+        <COLOR NAME="LavenderBlush4" CMYK="#00080574" Spot="0" Register="0"/>
+        <COLOR NAME="LawnGreen" CMYK="#8000fc03" Spot="0" Register="0"/>
+        <COLOR NAME="LemonChiffon" CMYK="#00053200" Spot="0" Register="0"/>
+        <COLOR NAME="LemonChiffon1" CMYK="#00053200" Spot="0" Register="0"/>
+        <COLOR NAME="LemonChiffon2" CMYK="#00052f11" Spot="0" Register="0"/>
+        <COLOR NAME="LemonChiffon3" CMYK="#00042832" Spot="0" Register="0"/>
+        <COLOR NAME="LemonChiffon4" CMYK="#00021b74" Spot="0" Register="0"/>
+        <COLOR NAME="LightBlue" CMYK="#390e0019" Spot="0" Register="0"/>
+        <COLOR NAME="LightBlue1" CMYK="#40100000" Spot="0" Register="0"/>
+        <COLOR NAME="LightBlue2" CMYK="#3c0f0011" Spot="0" Register="0"/>
+        <COLOR NAME="LightBlue3" CMYK="#330d0032" Spot="0" Register="0"/>
+        <COLOR NAME="LightBlue4" CMYK="#23080074" Spot="0" Register="0"/>
+        <COLOR NAME="LightCoral" CMYK="#0070700f" Spot="0" Register="0"/>
+        <COLOR NAME="LightCyan" CMYK="#1f000000" Spot="0" Register="0"/>
+        <COLOR NAME="LightCyan1" CMYK="#1f000000" Spot="0" Register="0"/>
+        <COLOR NAME="LightCyan2" CMYK="#1d000011" Spot="0" Register="0"/>
+        <COLOR NAME="LightCyan3" CMYK="#19000032" Spot="0" Register="0"/>
+        <COLOR NAME="LightCyan4" CMYK="#11000074" Spot="0" Register="0"/>
+        <COLOR NAME="LightGoldenrod" CMYK="#00116c11" Spot="0" Register="0"/>
+        <COLOR NAME="LightGoldenrod1" CMYK="#00137400" Spot="0" Register="0"/>
+        <COLOR NAME="LightGoldenrod2" CMYK="#00126c11" Spot="0" Register="0"/>
+        <COLOR NAME="LightGoldenrod3" CMYK="#000f5d32" Spot="0" Register="0"/>
+        <COLOR NAME="LightGoldenrod4" CMYK="#000a3f74" Spot="0" Register="0"/>
+        <COLOR NAME="LightGoldenrodYellow" CMYK="#00002805" Spot="0" Register="0"/>
+        <COLOR NAME="LightGreen" CMYK="#5e005e11" Spot="0" Register="0"/>
+        <COLOR NAME="LightGrey" CMYK="#0000002c" Spot="0" Register="0"/>
+        <COLOR NAME="LightPink" CMYK="#00493e00" Spot="0" Register="0"/>
+        <COLOR NAME="LightPink1" CMYK="#00514600" Spot="0" Register="0"/>
+        <COLOR NAME="LightPink2" CMYK="#004c4111" Spot="0" Register="0"/>
+        <COLOR NAME="LightPink3" CMYK="#00413832" Spot="0" Register="0"/>
+        <COLOR NAME="LightPink4" CMYK="#002c2674" Spot="0" Register="0"/>
+        <COLOR NAME="LightSalmon" CMYK="#005f8500" Spot="0" Register="0"/>
+        <COLOR NAME="LightSalmon1" CMYK="#005f8500" Spot="0" Register="0"/>
+        <COLOR NAME="LightSalmon2" CMYK="#00597c11" Spot="0" Register="0"/>
+        <COLOR NAME="LightSalmon3" CMYK="#004c6b32" Spot="0" Register="0"/>
+        <COLOR NAME="LightSalmon4" CMYK="#00344974" Spot="0" Register="0"/>
+        <COLOR NAME="LightSeaGreen" CMYK="#9200084d" Spot="0" Register="0"/>
+        <COLOR NAME="LightSkyBlue" CMYK="#732c0005" Spot="0" Register="0"/>
+        <COLOR NAME="LightSkyBlue1" CMYK="#4f1d0000" Spot="0" Register="0"/>
+        <COLOR NAME="LightSkyBlue2" CMYK="#4a1b0011" Spot="0" Register="0"/>
+        <COLOR NAME="LightSkyBlue3" CMYK="#40170032" Spot="0" Register="0"/>
+        <COLOR NAME="LightSkyBlue4" CMYK="#2b100074" Spot="0" Register="0"/>
+        <COLOR NAME="LightSlateBlue" CMYK="#7b8f0000" Spot="0" Register="0"/>
+        <COLOR NAME="LightSlateGrey" CMYK="#22110066" Spot="0" Register="0"/>
+        <COLOR NAME="LightSteelBlue" CMYK="#2e1a0021" Spot="0" Register="0"/>
+        <COLOR NAME="LightSteelBlue1" CMYK="#351e0000" Spot="0" Register="0"/>
+        <COLOR NAME="LightSteelBlue2" CMYK="#321c0011" Spot="0" Register="0"/>
+        <COLOR NAME="LightSteelBlue3" CMYK="#2b180032" Spot="0" Register="0"/>
+        <COLOR NAME="LightSteelBlue4" CMYK="#1d100074" Spot="0" Register="0"/>
+        <COLOR NAME="LightYellow" CMYK="#00001f00" Spot="0" Register="0"/>
+        <COLOR NAME="LightYellow1" CMYK="#00001f00" Spot="0" Register="0"/>
+        <COLOR NAME="LightYellow2" CMYK="#00001d11" Spot="0" Register="0"/>
+        <COLOR NAME="LightYellow3" CMYK="#00001932" Spot="0" Register="0"/>
+        <COLOR NAME="LightYellow4" CMYK="#00001174" Spot="0" Register="0"/>
+        <COLOR NAME="LimeGreen" CMYK="#9b009b32" Spot="0" Register="0"/>
+        <COLOR NAME="Linen" CMYK="#000a1405" Spot="0" Register="0"/>
+        <COLOR NAME="Magenta" CMYK="#00ff0000" Spot="0" Register="0"/>
+        <COLOR NAME="Magenta1" CMYK="#00ff0000" Spot="0" Register="0"/>
+        <COLOR NAME="Magenta2" CMYK="#00ee0011" Spot="0" Register="0"/>
+        <COLOR NAME="Magenta3" CMYK="#00cd0032" Spot="0" Register="0"/>
+        <COLOR NAME="Magenta4" CMYK="#008b0074" Spot="0" Register="0"/>
+        <COLOR NAME="Maroon" CMYK="#0080504f" Spot="0" Register="0"/>
+        <COLOR NAME="Maroon1" CMYK="#00cb4c00" Spot="0" Register="0"/>
+        <COLOR NAME="Maroon2" CMYK="#00be4711" Spot="0" Register="0"/>
+        <COLOR NAME="Maroon3" CMYK="#00a43d32" Spot="0" Register="0"/>
+        <COLOR NAME="Maroon4" CMYK="#006f2974" Spot="0" Register="0"/>
+        <COLOR NAME="MediumAquamarine" CMYK="#67002332" Spot="0" Register="0"/>
+        <COLOR NAME="MediumBlue" CMYK="#cdcd0032" Spot="0" Register="0"/>
+        <COLOR NAME="MediumOrchid" CMYK="#197e002c" Spot="0" Register="0"/>
+        <COLOR NAME="MediumOrchid1" CMYK="#1f990000" Spot="0" Register="0"/>
+        <COLOR NAME="MediumOrchid2" CMYK="#1d8f0011" Spot="0" Register="0"/>
+        <COLOR NAME="MediumOrchid3" CMYK="#197b0032" Spot="0" Register="0"/>
+        <COLOR NAME="MediumOrchid4" CMYK="#11540074" Spot="0" Register="0"/>
+        <COLOR NAME="MediumPurple" CMYK="#486b0024" Spot="0" Register="0"/>
+        <COLOR NAME="MediumPurple1" CMYK="#547d0000" Spot="0" Register="0"/>
+        <COLOR NAME="MediumPurple2" CMYK="#4f750011" Spot="0" Register="0"/>
+        <COLOR NAME="MediumPurple3" CMYK="#44650032" Spot="0" Register="0"/>
+        <COLOR NAME="MediumPurple4" CMYK="#2e440074" Spot="0" Register="0"/>
+        <COLOR NAME="MediumSeaGreen" CMYK="#7700424c" Spot="0" Register="0"/>
+        <COLOR NAME="MediumSlateBlue" CMYK="#73860011" Spot="0" Register="0"/>
+        <COLOR NAME="MediumSpringGreen" CMYK="#fa006005" Spot="0" Register="0"/>
+        <COLOR NAME="MediumTurquoise" CMYK="#8900052e" Spot="0" Register="0"/>
+        <COLOR NAME="MediumVioletRed" CMYK="#00b24238" Spot="0" Register="0"/>
+        <COLOR NAME="MidnightBlue" CMYK="#5757008f" Spot="0" Register="0"/>
+        <COLOR NAME="MintCream" CMYK="#0a000500" Spot="0" Register="0"/>
+        <COLOR NAME="MistyRose" CMYK="#001b1e00" Spot="0" Register="0"/>
+        <COLOR NAME="MistyRose1" CMYK="#001b1e00" Spot="0" Register="0"/>
+        <COLOR NAME="MistyRose2" CMYK="#00191c11" Spot="0" Register="0"/>
+        <COLOR NAME="MistyRose3" CMYK="#00161832" Spot="0" Register="0"/>
+        <COLOR NAME="MistyRose4" CMYK="#000e1074" Spot="0" Register="0"/>
+        <COLOR NAME="Moccasin" CMYK="#001b4a00" Spot="0" Register="0"/>
+        <COLOR NAME="NavajoWhite" CMYK="#00215200" Spot="0" Register="0"/>
+        <COLOR NAME="NavajoWhite1" CMYK="#00215200" Spot="0" Register="0"/>
+        <COLOR NAME="NavajoWhite2" CMYK="#001f4d11" Spot="0" Register="0"/>
+        <COLOR NAME="NavajoWhite3" CMYK="#001a4232" Spot="0" Register="0"/>
+        <COLOR NAME="NavajoWhite4" CMYK="#00122d74" Spot="0" Register="0"/>
+        <COLOR NAME="NavyBlue" CMYK="#8080007f" Spot="0" Register="0"/>
+        <COLOR NAME="OldLace" CMYK="#00081702" Spot="0" Register="0"/>
+        <COLOR NAME="OliveDrab" CMYK="#23006b71" Spot="0" Register="0"/>
+        <COLOR NAME="OliveDrab1" CMYK="#3f00c100" Spot="0" Register="0"/>
+        <COLOR NAME="OliveDrab2" CMYK="#3b00b411" Spot="0" Register="0"/>
+        <COLOR NAME="OliveDrab3" CMYK="#33009b32" Spot="0" Register="0"/>
+        <COLOR NAME="OliveDrab4" CMYK="#22006974" Spot="0" Register="0"/>
+        <COLOR NAME="Orange" CMYK="#005aff00" Spot="0" Register="0"/>
+        <COLOR NAME="Orange1" CMYK="#005aff00" Spot="0" Register="0"/>
+        <COLOR NAME="Orange2" CMYK="#0054ee11" Spot="0" Register="0"/>
+        <COLOR NAME="Orange3" CMYK="#0048cd32" Spot="0" Register="0"/>
+        <COLOR NAME="Orange4" CMYK="#00318b74" Spot="0" Register="0"/>
+        <COLOR NAME="OrangeRed" CMYK="#00baff00" Spot="0" Register="0"/>
+        <COLOR NAME="OrangeRed1" CMYK="#00baff00" Spot="0" Register="0"/>
+        <COLOR NAME="OrangeRed2" CMYK="#00aeee11" Spot="0" Register="0"/>
+        <COLOR NAME="OrangeRed3" CMYK="#0096cd32" Spot="0" Register="0"/>
+        <COLOR NAME="OrangeRed4" CMYK="#00668b74" Spot="0" Register="0"/>
+        <COLOR NAME="Orchid" CMYK="#006a0425" Spot="0" Register="0"/>
+        <COLOR NAME="Orchid1" CMYK="#007c0500" Spot="0" Register="0"/>
+        <COLOR NAME="Orchid2" CMYK="#00740511" Spot="0" Register="0"/>
+        <COLOR NAME="Orchid3" CMYK="#00640432" Spot="0" Register="0"/>
+        <COLOR NAME="Orchid4" CMYK="#00440274" Spot="0" Register="0"/>
+        <COLOR NAME="PaleGoldenrod" CMYK="#00064411" Spot="0" Register="0"/>
+        <COLOR NAME="PaleGreen" CMYK="#63006304" Spot="0" Register="0"/>
+        <COLOR NAME="PaleGreen1" CMYK="#65006500" Spot="0" Register="0"/>
+        <COLOR NAME="PaleGreen2" CMYK="#5e005e11" Spot="0" Register="0"/>
+        <COLOR NAME="PaleGreen3" CMYK="#51005132" Spot="0" Register="0"/>
+        <COLOR NAME="PaleGreen4" CMYK="#37003774" Spot="0" Register="0"/>
+        <COLOR NAME="PaleTurquoise" CMYK="#3f000011" Spot="0" Register="0"/>
+        <COLOR NAME="PaleTurquoise1" CMYK="#44000000" Spot="0" Register="0"/>
+        <COLOR NAME="PaleTurquoise2" CMYK="#40000011" Spot="0" Register="0"/>
+        <COLOR NAME="PaleTurquoise3" CMYK="#37000032" Spot="0" Register="0"/>
+        <COLOR NAME="PaleTurquoise4" CMYK="#25000074" Spot="0" Register="0"/>
+        <COLOR NAME="PaleVioletRed" CMYK="#006b4824" Spot="0" Register="0"/>
+        <COLOR NAME="PaleVioletRed1" CMYK="#007d5400" Spot="0" Register="0"/>
+        <COLOR NAME="PaleVioletRed2" CMYK="#00754f11" Spot="0" Register="0"/>
+        <COLOR NAME="PaleVioletRed3" CMYK="#00654432" Spot="0" Register="0"/>
+        <COLOR NAME="PaleVioletRed4" CMYK="#00442e74" Spot="0" Register="0"/>
+        <COLOR NAME="PapayaWhip" CMYK="#00102a00" Spot="0" Register="0"/>
+        <COLOR NAME="PeachPuff" CMYK="#00254600" Spot="0" Register="0"/>
+        <COLOR NAME="PeachPuff1" CMYK="#00254600" Spot="0" Register="0"/>
+        <COLOR NAME="PeachPuff2" CMYK="#00234111" Spot="0" Register="0"/>
+        <COLOR NAME="PeachPuff3" CMYK="#001e3832" Spot="0" Register="0"/>
+        <COLOR NAME="PeachPuff4" CMYK="#00142674" Spot="0" Register="0"/>
+        <COLOR NAME="Peru" CMYK="#00488e32" Spot="0" Register="0"/>
+        <COLOR NAME="Pink" CMYK="#003f3400" Spot="0" Register="0"/>
+        <COLOR NAME="Pink1" CMYK="#004a3a00" Spot="0" Register="0"/>
+        <COLOR NAME="Pink2" CMYK="#00453611" Spot="0" Register="0"/>
+        <COLOR NAME="Pink3" CMYK="#003c2f32" Spot="0" Register="0"/>
+        <COLOR NAME="Pink4" CMYK="#00281f74" Spot="0" Register="0"/>
+        <COLOR NAME="Plum" CMYK="#003d0022" Spot="0" Register="0"/>
+        <COLOR NAME="Plum1" CMYK="#00440000" Spot="0" Register="0"/>
+        <COLOR NAME="Plum2" CMYK="#00400011" Spot="0" Register="0"/>
+        <COLOR NAME="Plum3" CMYK="#00370032" Spot="0" Register="0"/>
+        <COLOR NAME="Plum4" CMYK="#00250074" Spot="0" Register="0"/>
+        <COLOR NAME="PowderBlue" CMYK="#36060019" Spot="0" Register="0"/>
+        <COLOR NAME="Purple" CMYK="#50d0000f" Spot="0" Register="0"/>
+        <COLOR NAME="Purple1" CMYK="#64cf0000" Spot="0" Register="0"/>
+        <COLOR NAME="Purple2" CMYK="#5dc20011" Spot="0" Register="0"/>
+        <COLOR NAME="Purple3" CMYK="#50a70032" Spot="0" Register="0"/>
+        <COLOR NAME="Purple4" CMYK="#36710074" Spot="0" Register="0"/>
+        <COLOR NAME="Red" CMYK="#00ffff00" Spot="0" Register="0"/>
+        <COLOR NAME="Red1" CMYK="#00ffff00" Spot="0" Register="0"/>
+        <COLOR NAME="Red2" CMYK="#00eeee11" Spot="0" Register="0"/>
+        <COLOR NAME="Red3" CMYK="#00cdcd32" Spot="0" Register="0"/>
+        <COLOR NAME="Red4" CMYK="#008b8b74" Spot="0" Register="0"/>
+        <COLOR NAME="RosyBrown" CMYK="#002d2d43" Spot="0" Register="0"/>
+        <COLOR NAME="RosyBrown1" CMYK="#003e3e00" Spot="0" Register="0"/>
+        <COLOR NAME="RosyBrown2" CMYK="#003a3a11" Spot="0" Register="0"/>
+        <COLOR NAME="RosyBrown3" CMYK="#00323232" Spot="0" Register="0"/>
+        <COLOR NAME="RosyBrown4" CMYK="#00222274" Spot="0" Register="0"/>
+        <COLOR NAME="RoyalBlue" CMYK="#a078001e" Spot="0" Register="0"/>
+        <COLOR NAME="RoyalBlue1" CMYK="#b7890000" Spot="0" Register="0"/>
+        <COLOR NAME="RoyalBlue2" CMYK="#ab800011" Spot="0" Register="0"/>
+        <COLOR NAME="RoyalBlue3" CMYK="#936e0032" Spot="0" Register="0"/>
+        <COLOR NAME="RoyalBlue4" CMYK="#644b0074" Spot="0" Register="0"/>
+        <COLOR NAME="SaddleBrown" CMYK="#00467874" Spot="0" Register="0"/>
+        <COLOR NAME="Salmon" CMYK="#007a8805" Spot="0" Register="0"/>
+        <COLOR NAME="Salmon1" CMYK="#00739600" Spot="0" Register="0"/>
+        <COLOR NAME="Salmon2" CMYK="#006c8c11" Spot="0" Register="0"/>
+        <COLOR NAME="Salmon3" CMYK="#005d7932" Spot="0" Register="0"/>
+        <COLOR NAME="Salmon4" CMYK="#003f5274" Spot="0" Register="0"/>
+        <COLOR NAME="SandyBrown" CMYK="#0050940b" Spot="0" Register="0"/>
+        <COLOR NAME="SeaGreen" CMYK="#5d003474" Spot="0" Register="0"/>
+        <COLOR NAME="SeaGreen1" CMYK="#ab006000" Spot="0" Register="0"/>
+        <COLOR NAME="SeaGreen2" CMYK="#a0005a11" Spot="0" Register="0"/>
+        <COLOR NAME="SeaGreen3" CMYK="#8a004d32" Spot="0" Register="0"/>
+        <COLOR NAME="SeaGreen4" CMYK="#5d003474" Spot="0" Register="0"/>
+        <COLOR NAME="Seashell" CMYK="#000a1100" Spot="0" Register="0"/>
+        <COLOR NAME="Seashell1" CMYK="#000a1100" Spot="0" Register="0"/>
+        <COLOR NAME="Seashell2" CMYK="#00091011" Spot="0" Register="0"/>
+        <COLOR NAME="Seashell3" CMYK="#00080e32" Spot="0" Register="0"/>
+        <COLOR NAME="Seashell4" CMYK="#00050974" Spot="0" Register="0"/>
+        <COLOR NAME="Sienna" CMYK="#004e735f" Spot="0" Register="0"/>
+        <COLOR NAME="Sienna1" CMYK="#007db800" Spot="0" Register="0"/>
+        <COLOR NAME="Sienna2" CMYK="#0075ac11" Spot="0" Register="0"/>
+        <COLOR NAME="Sienna3" CMYK="#00659432" Spot="0" Register="0"/>
+        <COLOR NAME="Sienna4" CMYK="#00446574" Spot="0" Register="0"/>
+        <COLOR NAME="SkyBlue" CMYK="#641d0014" Spot="0" Register="0"/>
+        <COLOR NAME="SkyBlue1" CMYK="#78310000" Spot="0" Register="0"/>
+        <COLOR NAME="SkyBlue2" CMYK="#702e0011" Spot="0" Register="0"/>
+        <COLOR NAME="SkyBlue3" CMYK="#61270032" Spot="0" Register="0"/>
+        <COLOR NAME="SkyBlue4" CMYK="#411b0074" Spot="0" Register="0"/>
+        <COLOR NAME="SlateBlue" CMYK="#63730032" Spot="0" Register="0"/>
+        <COLOR NAME="SlateBlue1" CMYK="#7c900000" Spot="0" Register="0"/>
+        <COLOR NAME="SlateBlue2" CMYK="#74870011" Spot="0" Register="0"/>
+        <COLOR NAME="SlateBlue3" CMYK="#64740032" Spot="0" Register="0"/>
+        <COLOR NAME="SlateBlue4" CMYK="#444f0074" Spot="0" Register="0"/>
+        <COLOR NAME="SlateGrey" CMYK="#2010006f" Spot="0" Register="0"/>
+        <COLOR NAME="SlateGrey1" CMYK="#391d0000" Spot="0" Register="0"/>
+        <COLOR NAME="SlateGrey2" CMYK="#351b0011" Spot="0" Register="0"/>
+        <COLOR NAME="SlateGrey3" CMYK="#2e170032" Spot="0" Register="0"/>
+        <COLOR NAME="SlateGrey4" CMYK="#1f100074" Spot="0" Register="0"/>
+        <COLOR NAME="Snow" CMYK="#00050500" Spot="0" Register="0"/>
+        <COLOR NAME="Snow1" CMYK="#00050500" Spot="0" Register="0"/>
+        <COLOR NAME="Snow2" CMYK="#00050511" Spot="0" Register="0"/>
+        <COLOR NAME="Snow3" CMYK="#00040432" Spot="0" Register="0"/>
+        <COLOR NAME="Snow4" CMYK="#00020274" Spot="0" Register="0"/>
+        <COLOR NAME="SpringGreen" CMYK="#ff008000" Spot="0" Register="0"/>
+        <COLOR NAME="SpringGreen1" CMYK="#ff008000" Spot="0" Register="0"/>
+        <COLOR NAME="SpringGreen2" CMYK="#ee007811" Spot="0" Register="0"/>
+        <COLOR NAME="SpringGreen3" CMYK="#cd006732" Spot="0" Register="0"/>
+        <COLOR NAME="SpringGreen4" CMYK="#8b004674" Spot="0" Register="0"/>
+        <COLOR NAME="SteelBlue" CMYK="#6e32004b" Spot="0" Register="0"/>
+        <COLOR NAME="SteelBlue1" CMYK="#9c470000" Spot="0" Register="0"/>
+        <COLOR NAME="SteelBlue2" CMYK="#92420011" Spot="0" Register="0"/>
+        <COLOR NAME="SteelBlue3" CMYK="#7e390032" Spot="0" Register="0"/>
+        <COLOR NAME="SteelBlue4" CMYK="#55270074" Spot="0" Register="0"/>
+        <COLOR NAME="Tan" CMYK="#001e462d" Spot="0" Register="0"/>
+        <COLOR NAME="Tan1" CMYK="#005ab000" Spot="0" Register="0"/>
+        <COLOR NAME="Tan2" CMYK="#0054a511" Spot="0" Register="0"/>
+        <COLOR NAME="Tan3" CMYK="#00488e32" Spot="0" Register="0"/>
+        <COLOR NAME="Tan4" CMYK="#00316074" Spot="0" Register="0"/>
+        <COLOR NAME="Thistle" CMYK="#00190027" Spot="0" Register="0"/>
+        <COLOR NAME="Thistle1" CMYK="#001e0000" Spot="0" Register="0"/>
+        <COLOR NAME="Thistle2" CMYK="#001c0011" Spot="0" Register="0"/>
+        <COLOR NAME="Thistle3" CMYK="#00180032" Spot="0" Register="0"/>
+        <COLOR NAME="Thistle4" CMYK="#00100074" Spot="0" Register="0"/>
+        <COLOR NAME="Tomato" CMYK="#009cb800" Spot="0" Register="0"/>
+        <COLOR NAME="Tomato1" CMYK="#009cb800" Spot="0" Register="0"/>
+        <COLOR NAME="Tomato2" CMYK="#0092ac11" Spot="0" Register="0"/>
+        <COLOR NAME="Tomato3" CMYK="#007e9432" Spot="0" Register="0"/>
+        <COLOR NAME="Tomato4" CMYK="#00556574" Spot="0" Register="0"/>
+        <COLOR NAME="Turquoise" CMYK="#a000101f" Spot="0" Register="0"/>
+        <COLOR NAME="Turquoise1" CMYK="#ff0a0000" Spot="0" Register="0"/>
+        <COLOR NAME="Turquoise2" CMYK="#ee090011" Spot="0" Register="0"/>
+        <COLOR NAME="Turquoise3" CMYK="#cd080032" Spot="0" Register="0"/>
+        <COLOR NAME="Turquoise4" CMYK="#8b050074" Spot="0" Register="0"/>
+        <COLOR NAME="Violet" CMYK="#006c0011" Spot="0" Register="0"/>
+        <COLOR NAME="VioletRed" CMYK="#00b0402f" Spot="0" Register="0"/>
+        <COLOR NAME="VioletRed1" CMYK="#00c16900" Spot="0" Register="0"/>
+        <COLOR NAME="VioletRed2" CMYK="#00b46211" Spot="0" Register="0"/>
+        <COLOR NAME="VioletRed3" CMYK="#009b5532" Spot="0" Register="0"/>
+        <COLOR NAME="VioletRed4" CMYK="#00693974" Spot="0" Register="0"/>
+        <COLOR NAME="Wheat" CMYK="#0017420a" Spot="0" Register="0"/>
+        <COLOR NAME="Wheat1" CMYK="#00184500" Spot="0" Register="0"/>
+        <COLOR NAME="Wheat2" CMYK="#00164011" Spot="0" Register="0"/>
+        <COLOR NAME="Wheat3" CMYK="#00133732" Spot="0" Register="0"/>
+        <COLOR NAME="Wheat4" CMYK="#000d2574" Spot="0" Register="0"/>
+        <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
+        <COLOR NAME="WhiteSmoke" CMYK="#0000000a" Spot="0" Register="0"/>
+        <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Yellow1" CMYK="#0000ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Yellow2" CMYK="#0000ee11" Spot="0" Register="0"/>
+        <COLOR NAME="Yellow3" CMYK="#0000cd32" Spot="0" Register="0"/>
+        <COLOR NAME="Yellow4" CMYK="#00008b74" Spot="0" Register="0"/>
+        <COLOR NAME="YellowGreen" CMYK="#33009b32" Spot="0" Register="0"/>
+        <HYPHEN/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Titre 1" ALIGN="0" LINESPMode="2" LINESP="12.6" INDENT="20" FIRST="0" VOR="9" NACH="6" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Nimbus Sans L Bold Condensed" FONTSIZE="18" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="Corps de Texte" ALIGN="0" LINESPMode="0" LINESP="19.2" INDENT="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Nimbus Sans L Bold Condensed" FONTSIZE="16" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="TitreFiche" ALIGN="0" LINESPMode="0" LINESP="24" INDENT="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Nimbus Sans L Bold Condensed" FONTSIZE="20" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="IDFiche" ALIGN="0" LINESPMode="0" LINESP="12" INDENT="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Nimbus Sans L Bold Condensed" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="FormGras" ALIGN="0" LINESPMode="0" LINESP="19.2" INDENT="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Nimbus Sans L Bold Condensed" FONTSIZE="16" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="Form" ALIGN="0" LINESPMode="0" LINESP="14.4" INDENT="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Nimbus Sans L Bold Condensed" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="Choix" ALIGN="0" LINESPMode="0" LINESP="19.2" INDENT="0" FIRST="101" VOR="11" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Nimbus Sans L Bold Condensed" FONTSIZE="16" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <STYLE NAME="Soussigne" ALIGN="0" LINESPMode="0" LINESP="15.6" INDENT="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Nimbus Sans L Bold Condensed" FONTSIZE="13" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Asana Math Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="French"/>
+        <LAYERS NUMMER="0" LEVEL="0" NAME="Fond de page" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <LAYERS NUMMER="2" LEVEL="1" NAME="logo" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
+        <LAYERS NUMMER="3" LEVEL="3" NAME="texte" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
+        <LAYERS NUMMER="4" LEVEL="4" NAME="form" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ffff"/>
+        <LAYERS NUMMER="5" LEVEL="2" NAME="masque" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff00ff"/>
+        <Printer firstUse="1" toFile="124" useAltPrintCommand="203" outputSeparations="1" useSpotColors="0" useColor="0" mirrorH="0" mirrorV="0" useICC="152" doGCR="190" doClip="160" setDevParam="62" useDocBleeds="87" cropMarks="127" bleedMarks="0" registrationMarks="0" colorMarks="32" includePDFMarks="0" PSLevel="3" PDLanguage="32" markOffset="1.84025856389291e-316" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
+        <PDF firstUse="1" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="1" SolidP="" ImageP="" PrintP="" InfoString="" BTop="20" BLeft="50" BRight="30" BBottom="20" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <LPI Color="Black" Frequency="75" Angle="45" SpotFunction="2"/>
+            <LPI Color="Cyan" Frequency="75" Angle="105" SpotFunction="2"/>
+            <LPI Color="Magenta" Frequency="75" Angle="75" SpotFunction="2"/>
+            <LPI Color="Yellow" Frequency="75" Angle="90" SpotFunction="2"/>
+        </PDF>
+        <DocItemAttributes/>
+        <TablesOfContents/>
+        <PageSets>
+            <Set Name="Single Page" FirstPage="0" Rows="1" Columns="1"/>
+            <Set Name="Double Sided" FirstPage="1" Rows="1" Columns="2">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="3-Fold" FirstPage="0" Rows="1" Columns="3">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="4-Fold" FirstPage="0" Rows="1" Columns="4">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle Left"/>
+                <PageNames Name="Middle Right"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+        </PageSets>
+        <Sections>
+            <Section Number="0" Name="0" From="0" To="3" Type="Type_1_2_3" Start="1" Reversed="0" Active="1"/>
+        </Sections>
+        <MASTERPAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="595" PAGEHEIGHT="842" BORDERLEFT="50" BORDERRIGHT="30" BORDERTOP="20" BORDERBOTTOM="20" NUM="0" NAM="Normal" MNAM="" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="595" PAGEHEIGHT="842" BORDERLEFT="50" BORDERRIGHT="30" BORDERTOP="20" BORDERBOTTOM="20" NUM="0" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100" PAGEYPOS="902" PAGEWIDTH="595" PAGEHEIGHT="842" BORDERLEFT="50" BORDERRIGHT="30" BORDERTOP="20" BORDERBOTTOM="20" NUM="1" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100" PAGEYPOS="1784" PAGEWIDTH="595" PAGEHEIGHT="842" BORDERLEFT="50" BORDERRIGHT="30" BORDERTOP="20" BORDERBOTTOM="20" NUM="2" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="316 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100" PAGEYPOS="2666" PAGEWIDTH="595" PAGEHEIGHT="842" BORDERLEFT="50" BORDERRIGHT="30" BORDERTOP="20" BORDERBOTTOM="20" NUM="3" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="568" YPOS="51" WIDTH="96" HEIGHT="64" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="White" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.174863" LOCALSCY="0.174863" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="logoperso" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="../../../var/tmp/.scribus/templates/logo.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 96 0 96 0 96 0 96 0 96 64 96 64 96 64 96 64 0 64 0 64 0 64 0 64 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 96 0 96 0 96 0 96 0 96 64 96 64 96 64 96 64 0 64 0 64 0 64 0 64 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="140" YPOS="60" WIDTH="5" HEIGHT="5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Black" PCOLOR2="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="160" YPOS="40" WIDTH="184" HEIGHT="77" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="White" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="-4" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="sfologo" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="../../../var/tmp/.scribus/templates/logo-fiches.gif" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 184 0 184 0 184 0 184 0 184 77 184 77 184 77 184 77 0 77 0 77 0 77 0 77 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 184 0 184 0 184 0 184 0 184 77 184 77 184 77 184 77 0 77 0 77 0 77 0 77 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="161" YPOS="124" WIDTH="153" HEIGHT="15" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Grey87" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14.4" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 153 0 153 0 153 0 153 0 153 15 153 15 153 15 153 15 0 15 0 15 0 15 0 15 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 153 0 153 0 153 0 153 0 153 15 153 15 153 15 153 15 0 15 0 15 0 15 0 15 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT KERN="10" CH="Fiche d'information n°1"/>
+            <trail PARENT="IDFiche"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="182" YPOS="182" WIDTH="473" HEIGHT="30" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Grey87" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="90" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="18" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="15" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 473 0 473 0 473 0 473 0 473 30 473 30 473 30 473 30 0 30 0 30 0 30 0 30 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 473 0 473 0 473 0 473 0 473 30 473 30 473 30 473 30 0 30 0 30 0 30 0 30 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT CH="Opération de la cataracte"/>
+            <trail PARENT="TitreFiche"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="149" YPOS="310" WIDTH="515" HEIGHT="478" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14.4" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 515 0 515 0 515 0 515 0 515 478 515 478 515 478 515 478 0 478 0 478 0 478 0 478 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 515 0 515 0 515 0 515 0 515 478 515 478 515 478 515 478 0 478 0 478 0 478 0 478 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="3" BOOKMARK="0" NEXTITEM="7" BACKITEM="-1">
+            <ITEXT CH="Madame, Mademoiselle, Monsieur,"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Vous êtes atteint d'une cataracte responsable de vos troubles visuels. Votre ophtalmologiste vous propose l'opération, car la chirurgie constitue le seul moyen d'améliorer votre vision."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Cette fiche contient l'information sur l'opération qui vous est proposée, sur ses résultats et sur ses risques."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="La cataracte"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Elle correspond à l'opacification du cristallin, lentille de forte puissance située à l'intérieur de l'oeil (objectif d'un appareil photographique)."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Pourquoi opérer la cataracte?"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Parce que ni les collyres, ni le laser ne peuvent guérir une cataracte constituée."/>
+            <para PARENT="Corps de Texte"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="L'opération de la cataracte"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="L'intervention est réalisée alors que le patient est installé sur le dos, en milieu chirurgical stérile et sous microscope. Elle représente un geste chirurgical majeur, car elle consiste à inciser l'oeil et à en extraire l'un de ses éléments internes, le cristallin."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Hospitalisation : Une immobilisation minimale de quelques heures est nécessaire. Le mode d'hospitalisation adapté à votre cas vous sera proposé par votre ophtalmologiste en accord avec l'anesthésiste."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Anesthésie : L'oeil peut être insensibilisé par des injections de voisinage, ou uniquement par l'instillation de gouttes. Une anesthésie générale est également possible."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Le choix résulte de l'avis de votre ophtalmologiste et de celui du médecin anesthésiste. Il prend en compte, si possible, votre souhait."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="L'extraction de la cataracte est réalisée avec ou sans l'aide d'une sonde à ultrasons. L'enveloppe du cristallin (la capsule) est laissée en place. Il est exceptionnel de procéder à l'extraction totale du cristallin."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Implantation d'un cristallin artificiel (implant intra-oculaire) : le cristallin est remplacé par une lentille synthétique placée derrière la pupille."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="L'incision de l'oeil est suturée ou non."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Incidents ou difficultés peropératoires : ils sont rares et imprévisibles. Ils conduisent parfois à placer l'implant devant la pupille, voire à renoncer à toute implantation. Il peut être nécessaire d'enlever un petit fragment de l'iris et/ou de procéder à l'ablation d'une partie du vitré."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Le déroulement de l'intervention peut être compliqué par une rupture de la capsule (moins de 5% des cas). L'extraction de la cataracte est parfois incomplète. Une hémorragie peut se produire et se résorbe en général en quelques jours (dans des cas très exceptionnels, elle peut aboutir à la perte de la vision, voire à la perte de l'oeil). "/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="L'évolution postopératoire habituelle"/>
+            <para PARENT="Titre 1"/>
+            <ITEXT CH="Dans la très grande majorité des cas (95%), l'oeil opéré de cataracte est indolore. La vision s'améliore très rapidement et une correction adaptée par lunettes peut être prescrite au bout de quelques semaines."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="La présence d'autres lésions de l'oeil peut limiter la récupération visuelle."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Les soins locaux sont réduits à l'instillation de gouttes, à l'application d'une pommade et au port d'une protection oculaire selon des modalités et durant une période qui vous seront précisées par votre chirurgien. Il est parfois nécessaire de procéder à l'ablation de fils de suture."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="L'activité professionnelle, l'utilisation de machines ou d'instruments dangereux, la conduite automobile sont déconseillées pendant une période limitée qui sera définie par votre ophtalmologiste."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Dans plus de 30 % des cas, il se produit, au cours des années qui suivent l'intervention, une opacification de la capsule: c'est la &quot;cataracte secondaire&quot; responsable d'une nouvelle baisse de vision. Le traitement consiste à réaliser une ouverture de la capsule par laser ou par chirurgie. "/>
+            <para PARENT="Corps de Texte"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="337" YPOS="59" WIDTH="242" HEIGHT="103" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14.4" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 242 0 242 0 242 0 242 0 242 103 242 103 242 103 242 103 0 103 0 103 0 103 0 103 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 242 0 242 0 242 0 242 0 242 103 242 103 242 103 242 103 0 103 0 103 0 103 0 103 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Nimbus Sans L Bold Condensed" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="Cabinet d'Ophtalmologie GOEËN"/>
+            <para ALIGN="1"/>
+            <ITEXT FONT="Nimbus Sans L Bold Condensed" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="Maladie et Chirurgie des Yeux"/>
+            <para ALIGN="1"/>
+            <ITEXT FONT="Nimbus Sans L Bold Condensed" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="Dr FRANÇOIS"/>
+            <para ALIGN="1"/>
+            <ITEXT FONT="Nimbus Sans L Bold Condensed" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="Ancien Chef de Clinique des Hôpitaux de Bordeaux"/>
+            <para ALIGN="1"/>
+            <ITEXT FONT="Nimbus Sans L Bold Condensed" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="DIU de Pathologies chirurgicales vitréo-rétiniennes"/>
+            <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="150" YPOS="972" WIDTH="515" HEIGHT="715" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" COLUMNS="1" COLGAP="11" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14.4" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 515 0 515 0 515 0 515 0 515 715 515 715 515 715 515 715 0 715 0 715 0 715 0 715 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 515 0 515 0 515 0 515 0 515 715 515 715 515 715 515 715 0 715 0 715 0 715 0 715 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="5">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="153" YPOS="1850" WIDTH="512" HEIGHT="726" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14.4" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="12" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 512 0 512 0 512 0 512 0 512 726 512 726 512 726 512 726 0 726 0 726 0 726 0 726 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 512 0 512 0 512 0 512 0 512 726 512 726 512 726 512 726 0 726 0 726 0 726 0 726 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT CH="Les complications de l'opération de la cataracte."/>
+            <para PARENT="Titre 1"/>
+            <ITEXT CH="Bien qu'elle soit parfaitement standardisée et suivie d'excellents résultats, l'opération de la cataracte n'échappe pas à la règle générale selon laquelle il n'existe pas de chirurgie sans risque. Il n'est donc pas possible à votre ophtalmologiste de garantir formellement le succès de l'intervention."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Les complications sévères de l'opération de la cataracte sont très rares. Elle peuvent nécessiter une réintervention et aboutir, dans les cas les plus extrêmes, à la perte de toute vision de l'oeil opéré, voire à la perte de l'oeil lui-même."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Il s'agit :"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="des infections (1 à 3 cas sur 1000)"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="du traumatisme de l'oeil par le patient ou son entourage"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="du décollement de la rétine (1 cas sur 100)"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="du trouble de la cornée"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="de l'extraction incomplète de la cataracte"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="du déplacement du cristallin artificiel"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="d'un oedème rétinien central"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="d'une brûlure rétinienne par l'éclairage du microscope opératoire."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="D'autres complications sont moins sévères, comme"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="la cicatrice insuffisamment étanche"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="une chute partielle de la paupière supérieure"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="un hématome du blanc de l'oeil ou de la paupière"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="la perception de mouches volantes"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="une sensibilité accrue à la lumière"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="une inflammation de l'oeil"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="l'augmentation de la pression intra-oculaire"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="la déformation de la cornée (astigmatisme)"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="une vision dédoublée."/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="L'erreur de calcul de la puissance du cristallin artificiel est rare, compte tenu de la précision de l'échographie systématiquement réalisée avant l'intervention. Elle peut éventuellement nécessiter une réintervention."/>
+            <para PARENT="Corps de Texte"/>
+            <para PARENT="Corps de Texte"/>
+            <ITEXT CH="Ces fiches nationales ont été créées sous l'égide de la Société Française d'Ophtalmologie (SFO) et du Syndicat National des Ophtalmologistes de France (SNOF). "/>
+            <trail PARENT="Corps de Texte"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="154" YPOS="2702" WIDTH="508" HEIGHT="380" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.5" PCOLOR="Azure2" PCOLOR2="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 508 0 508 0 508 0 508 0 508 380 508 380 508 380 508 380 0 380 0 380 0 380 0 380 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 508 0 508 0 508 0 508 0 508 380 508 380 508 380 508 380 0 380 0 380 0 380 0 380 0 0 0 0 " NUMGROUP="1" GROUPS="1 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="159.646" YPOS="2708" WIDTH="497.385" HEIGHT="89" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.967075" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="13.92" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="11.6" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 497.385 0 497.385 0 497.385 0 497.385 0 497.385 89 497.385 89 497.385 89 497.385 89 0 89 0 89 0 89 0 89 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 497.385 0 497.385 0 497.385 0 497.385 0 497.385 89 497.385 89 497.385 89 497.385 89 0 89 0 89 0 89 0 89 0 0 0 0 " NUMGROUP="2" GROUPS="2 1 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONTSIZE="15.5" CH="Le Dr FRANCOIS est disposé à répondre à toute question complémentaire que vous souhaiteriez lui poser."/>
+            <para PARENT="FormGras"/>
+            <ITEXT FONTSIZE="11.6" CH="Les dispositions réglementaires font obligation au médecin de prouver qu'il a fourni l'information au patient. Aussi vous demande-t-on de signer ce document dont le double est conservé par votre médecin."/>
+            <trail PARENT="Form"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="160" YPOS="2803.73" WIDTH="498.031" HEIGHT="65.6348" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="0.967075" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="13.92" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="11.6" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 498.031 0 498.031 0 498.031 0 498.031 0 498.031 65.6348 498.031 65.6348 498.031 65.6348 498.031 65.6348 0 65.6348 0 65.6348 0 65.6348 0 65.6348 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 498.031 0 498.031 0 498.031 0 498.031 0 498.031 65.6348 498.031 65.6348 498.031 65.6348 498.031 65.6348 0 65.6348 0 65.6348 0 65.6348 0 65.6348 0 0 0 0 " NUMGROUP="2" GROUPS="2 1 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONTSIZE="12.6" CH="Je soussigné ................................................................................................. reconnais que la nature de l'intervention, ainsi que ses risques, m'ont été expliqués en termes que j'ai compris, et qu'il a été répondu de façon satisfaisante à toutes les questions que j'ai posées."/>
+            <para PARENT="Soussigne"/>
+            <ITEXT FONTSIZE="12.6" CH="J'ai disposé d'un délai de réflexion suffisant et "/>
+            <trail PARENT="Soussigne"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="159.9689" YPOS="2877" WIDTH="498.031" HEIGHT="94" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.931756" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="13.44" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="11.2" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 498.031 0 498.031 0 498.031 0 498.031 0 498.031 94 498.031 94 498.031 94 498.031 94 0 94 0 94 0 94 0 94 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 498.031 0 498.031 0 498.031 0 498.031 0 498.031 94 498.031 94 498.031 94 498.031 94 0 94 0 94 0 94 0 94 0 0 0 0 " NUMGROUP="2" GROUPS="2 1 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONTSIZE="15" CH="donne mon accord "/>
+            <para PARENT="Choix"/>
+            <ITEXT FONTSIZE="15" CH="ne donne pas mon accord"/>
+            <para PARENT="Choix"/>
+            <para ALIGN="0"/>
+            <ITEXT FONTSIZE="15" CH="pour la réalisation de l'acte qui m'est proposé."/>
+            <trail PARENT="Soussigne"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="228" YPOS="2878" WIDTH="26.9184" HEIGHT="31" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.86351" PCOLOR="Grey92" PCOLOR2="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copie de case_a_cocher (2)" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 26.9184 0 26.9184 0 26.9184 0 26.9184 0 26.9184 31 26.9184 31 26.9184 31 26.9184 31 0 31 0 31 0 31 0 31 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 26.9184 0 26.9184 0 26.9184 0 26.9184 0 26.9184 31 26.9184 31 26.9184 31 26.9184 31 0 31 0 31 0 31 0 31 0 0 0 0 " NUMGROUP="2" GROUPS="2 1 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="442.99" YPOS="2972.157" WIDTH="189.911" HEIGHT="59.8435" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="0.967075" PCOLOR="None" PCOLOR2="None" TXTFILL="Black" TXTSTROKE="Black" TXTSTRSH="100" TXTFILLSH="100" TXTSCALE="100" TXTSCALEV="100" TXTBASE="0" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="13.92" LINESPMode="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Nimbus Sans L Bold Condensed" ISIZE="11.6" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 189.911 0 189.911 0 189.911 0 189.911 0 189.911 59.8435 189.911 59.8435 189.911 59.8435 189.911 59.8435 0 59.8435 0 59.8435 0 59.8435 0 59.8435 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 189.911 0 189.911 0 189.911 0 189.911 0 189.911 59.8435 189.911 59.8435 189.911 59.8435 189.911 59.8435 0 59.8435 0 59.8435 0 59.8435 0 59.8435 0 0 0 0 " NUMGROUP="2" GROUPS="2 1 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Nimbus Sans L Bold Condensed" FONTSIZE="11.6" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="Date et Signature"/>
+            <trail ALIGN="0"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="444" YPOS="2988" WIDTH="196" HEIGHT="75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Grey99" PCOLOR2="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 196 0 196 0 196 0 196 0 196 75 196 75 196 75 196 75 0 75 0 75 0 75 0 75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 196 0 196 0 196 0 196 0 196 75 196 75 196 75 196 75 0 75 0 75 0 75 0 75 0 0 0 0 " NUMGROUP="1" GROUPS="1 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="228" YPOS="2915" WIDTH="27" HEIGHT="31" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.86351" PCOLOR="Grey92" PCOLOR2="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copie de case_a_cocher (3)" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="1" TEXTRA="1" BEXTRA="1" REXTRA="1" FLOP="1101249488" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 27 0 27 0 27 0 27 0 27 31 27 31 27 31 27 31 0 31 0 31 0 31 0 31 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 27 0 27 0 27 0 27 0 27 31 27 31 27 31 27 31 0 31 0 31 0 31 0 31 0 0 0 0 " NUMGROUP="2" GROUPS="2 1 " startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+    </DOCUMENT>
+</SCRIBUSUTF8NEW>
